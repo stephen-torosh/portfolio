@@ -97,4 +97,50 @@ header main h1 {
     margin-top: 50px;
 }
 
-sec
+div .sectiontitle {
+    font-size: 18px;
+    color: #8643DC;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+div .sectionbox {
+    background-color: #8643DC;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+
+.Services main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Services main .item {
+    width: 350px;
+    height: 203px;
+}
+
+.Services main .item .title {
+    height: 60px;
+}
+
+.Services main .item .title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.Services main .item .title h3 {
+    font-weight: 500;
+}
+
+.Services main .item .title img {
+    margin-right: 20px;
+}
+
+.Services main .item .text h5 {
+    font-weight: 400;
+    line-height: 30px;
+}
