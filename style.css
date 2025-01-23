@@ -1,0 +1,100 @@
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    background-color: white;
+}
+
+.content {
+    width: 1111px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 123px;
+    width: 350px;
+    height: 40px;
+}
+
+header > nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 177px;
+    height: 40px;
+    font-size: 20px;
+}
+
+header main {
+    display: flex;
+}
+
+header main img {
+    position: relative;
+    margin-left: 142px;
+    margin-bottom: 99px;
+    bottom: 150px;
+    
+}
+
+.gray {
+    color: #7E7F86;
+}
+
+header main h3  {
+    font-weight:500;
+}
+
+header main h1 {
+    margin-bottom: 20px;
+}
+
+.letstalk {
+    width: 200px;
+    height: 60px;
+    border: 0;
+    background-color: #8643DC;
+    border-radius: 100px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+sec
