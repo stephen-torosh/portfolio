@@ -163,6 +163,10 @@ div .sectionbox {
     justify-content: space-between;
 }
 
+.Clients {
+    margin-bottom: 159px;
+}
+
 .Clients main .item {
     display: flex;
     justify-content: center;
@@ -170,14 +174,51 @@ div .sectionbox {
     width: 170px;
     height: 170px;
     border-radius: 10px;
-    background-color: #FFE7F0
+    
 }
 
 .Clients main .item main {
     display: flex;
-    align-content: space-between;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     height: 104px;
 }
 
+.Clients main .item main span {
+    display: flex;
+    justify-content: center;
+}
 
+.Testimonials main {
+    margin-top: 25px;
+}
+
+.Testimonials main .quote{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.Testimonials main .quote-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 85px;
+    color: #636066;
+    margin-bottom: 50px;
+}
+
+.Testimonials main h5 {
+    display: flex;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.Testimonials main span {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
