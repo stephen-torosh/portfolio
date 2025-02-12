@@ -226,3 +226,45 @@ div .sectionbox {
     font-weight: 600;
     margin-bottom: 5px;
 }
+
+.blog {
+    display: flex;
+}
+
+.blog .left {
+    width: 165px;
+    height: 331px;
+    margin-right: 25px;
+}
+
+.blog .right {
+    display: flex;
+    justify-content: space-between;
+    width: calc(921px);
+}
+
+.blog .right .item-one {
+    width: 350px;
+    height: 100%;
+}
+
+.blog .right .item-two {
+    width: 255px;
+    height: 100%;
+}
+.blog .right .item-three {
+    width: 255px;
+    height: 100%;
+}
+
+.blog .right .item-one .title {
+    color: #8643DC;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.blog .right .item-one .text {
+    font-size: 20px;
+    font-weight: 600;
+}
